@@ -84,8 +84,7 @@ body
     z-index: 1;
 }
 
-
-.icon{
+#dc, #tg{
     background-image: url(discordIcon.png);
     background-size: var(--iconSize);
     height: var(--iconSize);
@@ -94,11 +93,11 @@ body
     cursor: pointer;
 }
 
-.icon #dc{
+#dc{
     background-image: url(discordIcon.png);
 
 }
 
-.icon #tg{
+#tg{
     background-image: url(telegram-icon-1024x1024-2aalm7gu.png);
 }
