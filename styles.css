@@ -6,6 +6,11 @@
     font-style: normal;
 }
 
+
+:root{
+    --iconSize: 30px;
+}
+
 *
 {
     font-family: 'Dreieque', 'Roboto';
@@ -77,4 +82,23 @@ body
     margin: 0;
     opacity: 0.1;
     z-index: 1;
+}
+
+
+.icon{
+    background-image: url(discordIcon.png);
+    background-size: var(--iconSize);
+    height: var(--iconSize);
+    width: var(--iconSize);
+
+    cursor: pointer;
+}
+
+.icon #dc{
+    background-image: url(discordIcon.png);
+
+}
+
+.icon #tg{
+    background-image: url(telegram-icon-1024x1024-2aalm7gu.png);
 }
